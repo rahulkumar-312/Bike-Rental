@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike-Rental</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar-co">
+        <div class="overlay">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./bikes.html">Bikes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="./bikes.html"><button class="btn" >Book now</button></a></li>
+            </ul>
+
+            <div class="content">
+                <h2 class="heading" >Discover the Freedom of Two Wheels..</h2>
+                <h3 class="discription" >Rent High-Quality Bikes <br>for Your Next Adventure</h3>
+            </div>
+            <div class="search-box">
+                <input type="date">
+                <input type="date">
+                <a href="./bikes.html"><button class="go">Go</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="bikes">
+        <div class="overlay-bikes">
+            <div class="bikes-model">
+                <h4 class="model-name" id="1" >Scooty</h4>
+                <h4 class="model-name" id="2" >Triumph</h4>
+                <h4 class="model-name" id="3" >Royal Enfiled</h4>
+                <h4 class="model-name" id="4" >Super Bike</h4>
+                <h4 class="model-name" id="5" >Scooter</h4>
+            </div>
+            <div class="bikes-img">
+                <img src="./img/1.png" alt="bike-img" class="centerimg" >
+            </div>
+            <div class="bikes-info">
+                <h4 class="model-info" >Model Name</h4>
+                <h4 class="model-info" >Scooty</h4>
+                <h4 class="model-info" >Model Year</h4>
+                <h4 class="model-info" >2018</h4>
+                <h4 class="model-info" >Mileage</h4>
+                <h4 class="model-info" >71 kmpl</h4>
+                <h4 class="model-info" >Cost</h4>
+                <h4 class="model-info" >$10 Per Day</h4>
+                <h4 class="model-info" >Helmet</h4>
+                <h4 class="model-info" >1</h4>
+                
+            </div>
+
+
+        </div>
+    </div>
+    <div class="contact" tabindex="contact" >
+        <div class="overlay-contact">
+            <div class="box-contact" id="box-contact-id" >
+                <input type="text" class="form-contact" placeholder="First Name" >
+                <input type="text" class="form-contact" placeholder="Last Name" >
+                <input type="text" class="form-contact" placeholder="Email Address" >
+                <button class="form-contact" id="submit-btn" onclick="submit()" >Submit</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'Calibri';
+}
+
+.nav-bar-co{
+    height: 100vh;
+    background-image: url(./img/cover.jpg);
+    background-position: cover;
+    width: 100%;
+    
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+    
+}
+
+ul{
+    list-style: none;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;  
+    font-size: 1.3rem;
+    padding-top: 10px;
+    text-decoration: none;
+    
+}
+
+li{
+    display: inline;
+    margin-right: 2rem;
+  
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover{
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.1); 
+    
+}
+
+.btn{
+    border-style: none;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
+    padding: 0rem 0.5rem;
+    background-color: rgb(46, 163, 46);
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(46, 163, 80);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+
+}
+
+.heading{
+    position: absolute;
+    top: 7rem;
+    left: 5rem;
+    color: white;
+    font-size: 2rem;
+
+}
+
+.discription{
+    position: absolute;
+    top: 14rem;
+    left: 5rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+
+.search-box{
+    height: 15vh;
+    width: 50%;
+    position: relative;
+    top: 92vh;
+    left: 25%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.4rem;
+}
+
+input{
+    height: 7vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border-style: none;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.input:hover{
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.go{
+    height: 7vh;
+    width: 5vw;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border-style: none;
+    border-radius: 0.4rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.go:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.bikes{
+    height: 100vh;
+    background-image: url(./img/cover4.jpg);
+    
+
+}
+
+.overlay-bikes{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bikes-model{
+    /* background-color: orange; */
+    height: 80vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.model-name{
+    border: 1px solid white;
+    width: 90%;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    margin: 1rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+    color: white;   
+}
+
+.bikes-img{
+    /* background-color: green; */
+    height: 80vh;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerimg{
+    height: 45vh;
+}
+
+.bikes-info{
+    height: 68vh;
+    width: 25%;
+    display: grid;
+    grid-template-columns: 10rem 10rem;
+    row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.model-info{
+    border: 1px solid white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+    height: 5vh;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+}
+
+.contact{
+    background-image: url(./img/about.jpg);
+    height: 100vh;
+    width: 100%;   
+}
+
+.overlay-contact{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-contact{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 1rem;
+    justify-content: center;  
+}
+
+
+.form-contact{
+    text-align: center;
+    height: 15%;
+    font-size: 1rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#submit-btn{
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: whitesmoke;
+
+}
+
+.submit-h2{
+    color: white;
+    font-size: 2rem;
+}
+
+
+/* bikes page css */
+
+.nav-bar-co-bikespage{
+    height: 300vh;
+    background-image: url(./img/bikes-page.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.overlay-bikespage{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+
+.bikeslist-container{
+    height: 200vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    /* column-gap: 1rem; */
+    margin: 0 0.8rem;
+}
+
+.filter{
+    height: 90%;
+    grid-row: 1 / span 3;
+    
+}
+
+.bikeslist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+    
+    
+}
+
+.listimg{
+    height: 30vh;
+}
+
+.modelyearfilter{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.filterbtns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.radiobtn{
+    height: 4vh;
+    margin: 0.5rem;
+}
+
+.modelnamefilter{
+    height: 30vh;
+
+}
+
+
+/* contact page css */
+
+
+.nav-bar-co-contact{
+    height: 100vh;
+    background-image: url(./img/contactpage.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.overlay-contact{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+
+.overlay-contact-page{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
